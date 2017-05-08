@@ -24,7 +24,7 @@
 If you would like to add an adapter to the list, please [create an issue](https://github.com/lukasoppermann/html5sortable/issues) with the link to your adapter.
 - **Polymer:** https://github.com/trofrigo/polymer-html5sortable
 
-# Installation
+## Install
 
 You need to install the package using `npm` or downloading it manually. Afterwards you need to load `dist/html.sortable.js` or the minified version, `dist/html.sortable.min.js`. **Make sure to grab the file from the `dist/` directory.**
 
@@ -52,7 +52,7 @@ If you send a *pull request* make sure it passes the tests & linting. Please see
 npm test
 ```
 
-# Usage
+## Usage
 
 Use `sortable` method to create a sortable list:
 
@@ -220,10 +220,12 @@ The plugin has limited support for sorting table rows. To sort table rows:
  * Initialize plugin on `tbody` element
  * Keep in mind that different browsers may display different ghost image of the row during the drag action. Webkit browsers seem to hide entire contents of `td` cell if there are any inline elements inside the `td`. This may or may not be fixed by setting the `td` to be `position: relative;`
 
-## Contributing
+## Contribute
 This version is maintained by [Lukas Oppermann](https://github.com/lukasoppermann) and [many other contributors](../../contributors). Thanks for your help! :+1:
 
 Contributions are always welcome. Please check out the [contribution guidelines](CONTRIBUTING.md) to make it fast & easy for us to merge your PR.
+
+Small note: If editing the Readme, please conform to the [standard-readme](https://github.com/RichardLitt/standard-readme) specification.
 
 ### Comment your code
 Your code should be as self-documenting as possible, but because this is an open source project with multiple contributors please add comments whenever possible/sensible.
@@ -246,10 +248,6 @@ Please add tests using mocha and jsdom, to verify & test your changes. Make sure
 
 Just add a new `.js` file to the `test` folder, or add a test to one of the files that already exist.
 
-# Roadmap
-If you want to help us by working on any of the points below, please let me know and I add you and your branch to the list.
+## License
 
-- [ ] clean up & add comments (wip)
-- [ ] mocha tests (wip)
-- [ ] Refactor & break code into functions (wip)
-- [ ] Nesting via drag & drop
+[MIT © Lukas Oppermann](LICENSE)
